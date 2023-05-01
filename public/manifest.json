@@ -1,0 +1,6 @@
+{
+    "short_name": "React App",
+    "name": "Create React App and push to Github and connect to Netlify",
+    "start_url": ".",
+    "display": "standalone"
+}
