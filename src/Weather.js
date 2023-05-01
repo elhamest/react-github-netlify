@@ -90,9 +90,9 @@ export default function Weather() {
                     className="current-tempreture-symbol unit-degree-to-change"
                     id="current-tempreture-symbol"
                   >
-                    & #8451;
-                  </span>
-                </td>
+                    {"\u2103"}{" "}
+                  </span>{" "}
+                </td>{" "}
                 <td
                   className="current-max degree-value-to-change"
                   id="current-max"
@@ -100,20 +100,22 @@ export default function Weather() {
                   {" "}
                   {weatherData.currentMax}{" "}
                 </td>{" "}
-                <td> & nbsp; & nbsp; </td>{" "}
+                <td>
+                  {" "}
+                  {"\u00A0"} {"\u00A0"}{" "}
+                </td>{" "}
                 <td className="celsius-degree degree-style">
                   <a
                     href="/"
                     className="celsius-degree-link degree-link active-degree-link"
                     id="celsius-degree-link"
                   >
-                    & #8451;
-                  </a>
-                </td>
+                    {"\u2103"}{" "}
+                  </a>{" "}
+                </td>{" "}
               </tr>
-
               <tr>
-                <td></td>
+                <td> </td>{" "}
                 <td
                   className="current-min degree-value-to-change"
                   id="current-min"
@@ -121,28 +123,31 @@ export default function Weather() {
                   {" "}
                   {weatherData.currentMin}{" "}
                 </td>{" "}
-                <td> & nbsp; & nbsp; </td>{" "}
+                <td>
+                  {" "}
+                  {"\u00A0"} {"\u00A0"}{" "}
+                </td>{" "}
                 <td className="fahrenheit-degree degree-style">
                   <a
                     href="/"
                     className="fahrenheit-degree-link degree-link"
                     id="fahrenheit-degree-link"
                   >
-                    & #8457;
-                  </a>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
+                    {"\u2109"}{" "}
+                  </a>{" "}
+                </td>{" "}
+              </tr>{" "}
+            </table>{" "}
+          </div>{" "}
+        </div>{" "}
         <div className="col2">
           <div className="current-weather-image">
             {" "}
             {/*<img
-                                                  alt={weatherData.currentWeatherDescription}
-                                                  id="current-weather-image"
-                                                  src={weatherData.currentWeatherImageURL}
-                                                />*/}{" "}
+                                                                          alt={weatherData.currentWeatherDescription}
+                                                                          id="current-weather-image"
+                                                                          src={weatherData.currentWeatherImageURL}
+                                                                        />*/}{" "}
             <CurrentWeatherImage />
           </div>{" "}
           <div calssName="current-weather-content">
@@ -166,9 +171,9 @@ export default function Weather() {
                 className="unit-degree-to-change"
                 id="current-feels-like-unit"
               >
-                & #8451;
-              </span>
-            </div>
+                {"\u2103"}{" "}
+              </span>{" "}
+            </div>{" "}
             <div className="current-humidity">
               Humidity:{" "}
               <span id="current-humidity-value">
